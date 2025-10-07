@@ -7,7 +7,7 @@ const questions = [
   {
     "question": "54. What is the overall range for Alternator 1 Current?",
     "options": ["0 – 59 Amps", "2 – 100 Amps", "0 – 100 Amps", "0 – 70 Amps"],
-    "correct": 0
+    "correct": 2
   },
   {
     "question": "55. What is the normal range for Alternator 1 Current?",
@@ -17,7 +17,7 @@ const questions = [
   {
     "question": "56. What is the yellow arc maximum caution range for Alternator 1 Current?",
     "options": ["0 – 1 Amps", "1 – 2 Amps", "2 – 100 Amps", "> 100 Amps"],
-    "correct": 1
+    "correct": 0
   },
   {
     "question": "57. What is the delay for the Alternator 1 Current caution according to the note?",
@@ -32,12 +32,12 @@ const questions = [
   {
     "question": "59. What is the normal range for Alternator 2 Current?",
     "options": ["0 – 70 Amps", "2 – 100 Amps", "0 – 1 Amps", "1 – 2 Amps"],
-    "correct": 0
+    "correct": 1
   },
   {
     "question": "60. What is the yellow arc maximum caution range for Alternator 2 Current?",
     "options": ["> 70 Amps", "1 – 2 Amps", "0 – 1 Amps", "2 – 100 Amps"],
-    "correct": 1
+    "correct": 2
   },
   {
     "question": "61. What is the delay for the Alternator 2 Current caution according to the note?",
@@ -52,7 +52,7 @@ const questions = [
   {
     "question": "63. What is the normal range for Battery 1 Current?",
     "options": ["-59 to 59 Amps", "0 – 59 Amps", "-59 to -5 Amps", "-4 – 59 Amps"],
-    "correct": 1
+    "correct": 3
   },
   {
     "question": "64. What is the yellow arc maximum caution range for Battery 1 Current?",
@@ -62,7 +62,7 @@ const questions = [
   {
     "question": "65. What is the delay for the Battery 1 Current caution according to the note?",
     "options": ["10 seconds", "30 seconds", "20 seconds", "40 seconds"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "66. What is the overall range for Cylinder Head Temperature?",
@@ -72,7 +72,7 @@ const questions = [
   {
     "question": "67. What is the normal range for Cylinder Head Temperature?",
     "options": ["100 – 240 °F", "420 – 460 °F", "100 – 500 °F", "240 – 420 °F"],
-    "correct": 0
+    "correct": 3
   },
   {
     "question": "68. What is the maximum caution range for Cylinder Head Temperature?",
@@ -87,7 +87,7 @@ const questions = [
   {
     "question": "70. What is the overall range for Engine Speed?",
     "options": ["0 – 2500 RPM", "0 – 3000 RPM", "0 – 2700 RPM", "500 – 2700 RPM"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "71. What is the normal range for Engine Speed?",
@@ -117,7 +117,7 @@ const questions = [
   {
     "question": "76. What is the overall range for Manifold Pressure?",
     "options": ["5 – 40 Inch Hg", "0 – 30 Inch Hg", "15 – 29.5 Inch Hg", "10 – 35 Inch Hg"],
-    "correct": 0
+    "correct": 3
   },
   {
     "question": "77. What is the normal range for Manifold Pressure?",
@@ -137,7 +137,7 @@ const questions = [
   {
     "question": "80. What is the minimum caution range for Oil Pressure?",
     "options": ["0 – 10 PSI", "10 – 30 PSI", "30 – 60 PSI", "60 – 100 PSI"],
-    "correct": 0
+    "correct": 1
   },
   {
     "question": "81. What is the normal range for Oil Pressure?",
@@ -147,12 +147,12 @@ const questions = [
   {
     "question": "82. What is the maximum caution range for Oil Pressure?",
     "options": ["> 100 PSI", "10 – 30 PSI", "60 – 100 PSI", "30 – 60 PSI"],
-    "correct": 0
+    "correct": 2
   },
   {
     "question": "83. What is the upper warning range for Oil Pressure?",
     "options": ["> 60 PSI", "> 100 PSI", "> 30 PSI", "> 10 PSI"],
-    "correct": 0
+    "correct": 1
   },
   {
     "question": "84. What triggers an oil pressure caution according to the note?",
@@ -187,7 +187,7 @@ const questions = [
   {
     "question": "90. What is the normal range for Percent Power?",
     "options": ["50 – 100%", "0 – 100%", "0 – 50%", "75 – 100%"],
-    "correct": 0
+    "correct": 1
   },
   {
     "question": "91. What is the model of the engine?",
@@ -222,7 +222,7 @@ const questions = [
   {
     "question": "97. What is the maximum oil pressure for the engine?",
     "options": ["100 psi", "110 psi", "80 psi", "90 psi"],
-    "correct": 1
+    "correct": 0
   },
   {
     "question": "98. What is the normal range for fuel flow?",
@@ -242,7 +242,7 @@ const questions = [
   {
     "question": "101. What is the red arc (minimum) for the fuel totalizer?",
     "options": ["Less than 5 U.S. Gallons", "Less than 9 U.S. Gallons", "Less than 14 U.S. Gallons", "Less than 0 U.S. Gallons"],
-    "correct": 0
+    "correct": 1
   },
   {
     "question": "102. What is the yellow arc (minimum caution range) for the fuel totalizer?",
@@ -260,3 +260,4 @@ const questions = [
     "correct": 0
   },
 ];
+
